@@ -12,7 +12,14 @@ const material = new THREE.MeshBasicMaterial({ vertexColors: true });
 
 const colors = [];
 const color = new THREE.Color();
-const rubiksColorsHex = ["0xffffff", "0xffd500", "0x009b48", "0x0046ad", "0xb71234", "0xff5800"];
+const rubiksColorsHex = [
+    0xffffff,
+    0xffd500,
+    0x009b48,
+    0x0046ad,
+    0xb71234,
+    0xff5800
+];
 
 rubiksColorsHex.forEach(colorHex => {
     color.setHex(colorHex);
